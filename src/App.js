@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Todos from './components/Todos';
 import Header from './components/Header';
+import BookList from './components/BookList';
 
 function App() {
   let state = {
@@ -24,8 +25,8 @@ function App() {
   console.log(state.Todos)
   return (
     <div className="App">
-      <Todos />
-      <Header />
+      {/* <Header /> */}
+      <BookList />
     </div>
   );
 }
